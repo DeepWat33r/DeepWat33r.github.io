@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+html,body{
+	margin: 0;
+	font-size: 14px;
+	font-family: 'Epilogue', sans-serif;
+}
+#header, #footer{
+	height: 12%;
+	display: table;
+	width: 100%;
+}
+#header{
+	background-color: #7FFFD4;
+}
+#footer{
+	background-color: #6495ED;
+}
+#header > h1{
+	width: 20%;
+	display:table-cell; 
+	vertical-align:middle; 
+	text-align:right;
+	padding:0 1em;
+}
+#footer > h1{
+	display:table-cell; 
+	vertical-align:middle; 
+	text-align:left;
+	padding:0 1em;
+}
+#header > h3, #footer > h3{
+	display:table-cell; 
+	vertical-align:middle; 
+	text-align:right;
+	padding:0 2em;
+}
+.main{
+	height: 76%;	
+}
+#block4{
+	background-color: #008B8B;
+	display: table;
+	float: right;
+	height: 100%;
+	width: 25%;
+}
+#block5{
+	background-color: #B0E0E6;
+	float: right;
+	height: 10%;
+	width: 75%;
+}
+#block2{
+	background-color: #20B2AA;
+	display: table;
+	float: left;
+	height: 90%;
+	width: 25%;
+}
+#block3{
+	background-color: #AFEEEE;
+	float: left;
+	height: 90%;
+	width: 50%;
+}
+#block5 > p{
+	top: 30%;
+}
+p,nav{
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right;
+    padding: 0 1em;
+}
+.main > div{
+	position: relative;
+}
+.list{
+	display:table-cell; 
+	vertical-align:middle; 
+	text-align:right;
+	padding:2em;
+	list-style-type: none;
+}
+.list > li{
+	display: block;
+	padding: 5px;
+}
+.list > li a{
+	display: block;
+	text-decoration: none;
+}

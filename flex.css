@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+html,body{
+	margin: 0;
+	font-size: 14px;
+	font-family: 'Epilogue', sans-serif;
+}
+.block3,
+.block2,
+.block4 {
+	text-align: right;
+}
+.main {
+	display: flex;
+	height: 70vh;
+}
+.block3 {
+	background-color: #AFEEEE;
+	flex: 1;
+}
+.block2 {
+	flex: 0 1 50vh;
+	background-color: #20B2AA;
+}
+.block4 {
+	float: left;
+	height: 108.6%;
+	flex: 0 1 50vh;
+	background-color: #008B8B
+}
+.block2 {
+	order: -1;
+}
+.header,
+.footer {
+	display: flex;
+	align-items: center;
+	height: 12vh;
+}
+.footer{
+	background-color: #6495ED;
+}
+.header{
+	background-color: #7FFFD4;
+}
+.header > h1{
+	width: 20%;
+	text-align: right;
+	vertical-align:middle;
+}
+.footer > h1{
+	width: 20%;
+	vertical-align:middle; 
+	text-align:left;
+	padding:0 1em;
+}
+.header > h3, .footer > h3{
+	width: 80%;
+	text-align:right;
+	padding:0 2em;
+}
+.block5 {
+	display: flex;
+	align-items: center;
+	height:6vh;
+	width: 90vw;
+	background-color: #B0E0E6;
+	margin: 0;
+}
+ul{
+	padding-right: 2em;
+	padding-top: 300px; 
+	list-style-type: none;
+}
+.block3 > p{
+	padding-right: 2em;
+	padding-top: 300px;
+}
